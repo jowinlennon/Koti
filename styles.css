@@ -1,0 +1,20 @@
+@media (min-width: 640px) {
+  #Big {
+    opacity: 1;
+  }
+  #Small {
+    opacity: 0;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 640px) {
+  #Medium {
+    opacity: 1;
+  }
+  #Small {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 480px) {
+}
